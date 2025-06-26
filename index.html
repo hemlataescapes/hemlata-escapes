@@ -2,66 +2,74 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hemlata Escapes - Car Travel Services</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hemlata Escapes - Travel with Comfort</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-    header { background-color: #008080; color: white; padding: 20px; text-align: center; }
-    nav { background-color: #006666; padding: 10px; text-align: center; }
-    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
-    section { padding: 20px; }
-    footer { background-color: #f1f1f1; text-align: center; padding: 15px; margin-top: 20px; }
-    .btn { background-color: #008080; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block; margin-top: 10px; }
+    body { margin: 0; font-family: 'Segoe UI', sans-serif; background: #f9f9f9; color: #333; }
+    header { background: linear-gradient(135deg, #006666, #009999); color: white; padding: 40px 20px; text-align: center; }
+    nav { background-color: #004d4d; display: flex; justify-content: center; padding: 10px 0; }
+    nav a { color: white; text-decoration: none; margin: 0 20px; font-weight: 600; }
+    nav a:hover { text-decoration: underline; }
+    section { padding: 40px 20px; max-width: 1000px; margin: auto; }
+    h2 { color: #006666; }
+    .btn { background-color: #009999; color: white; padding: 12px 24px; text-decoration: none; border-radius: 5px; display: inline-block; margin-top: 15px; }
+    .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; margin-top: 20px; }
+    .card { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+    footer { background: #eee; text-align: center; padding: 20px; margin-top: 40px; }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Hemlata Escapes</h1>
-    <p>Your Trusted Car Travel Partner in UP & Nearby States</p>
-  </header>
-  <nav>
-    <a href="#services">Services</a>
-    <a href="#rates">Rate Card</a>
-    <a href="#about">About Us</a>
-    <a href="#contact">Contact</a>
-  </nav>
-  <section id="home">
-    <h2>Welcome to Hemlata Escapes</h2>
-    <p>We provide safe, comfortable, and affordable car travel services across Uttar Pradesh and nearby states. Whether you're planning a family trip, group travel, or need a reliable taxi, we are here 24x7 to assist you.</p>
-    <a href="https://wa.me/message/4XFYKFVY5LNOJ1" class="btn">Book on WhatsApp</a>
-  </section>
-  <section id="services">
-    <h2>Our Services</h2>
-    <ul>
-      <li>Local Taxi Service in Gorakhpur</li>
-      <li>Outstation Trips (UP, Bihar, Nepal)</li>
-      <li>Airport & Railway Station Transfers</li>
-      <li>Wedding & Event Car Booking</li>
-      <li>Tempo Traveller Group Travel</li>
-    </ul>
-  </section>
-  <section id="rates">
-    <h2>Sample Rate Card</h2>
-    <ul>
-      <li>Gorakhpur to Lucknow – ₹4500 (Sedan)</li>
-      <li>Gorakhpur to Varanasi – ₹3500 (Sedan)</li>
-      <li>Local City Taxi – ₹12/km or ₹250/hr</li>
-      <li>Tempo Traveller (12-Seater) – ₹25/km</li>
-    </ul>
-  </section>
-  <section id="about">
-    <h2>About Us</h2>
-    <p>Hemlata Escapes is named in honor of Banshidhar and Hemlata Pandey, and is dedicated to providing reliable and quality travel services. Based in Gorakhpur, we specialize in both short city rides and long-distance travel with a focus on safety, punctuality, and comfort. Our professional drivers and well-maintained vehicles ensure your journey is smooth and stress-free.</p>
-  </section>
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <p><strong>Phone:</strong> <a href="tel:9452998052">9452998052</a></p>
-    <p><strong>Email:</strong> <a href="mailto:Hp433123@gmail.com">Hp433123@gmail.com</a></p>
-    <p><strong>Location:</strong> Gorakhpur, Uttar Pradesh</p>
-    <a href="https://wa.me/message/4XFYKFVY5LNOJ1" class="btn">Chat on WhatsApp</a>
-  </section>
-  <footer>
-    <p>&copy; 2025 Hemlata Escapes. All rights reserved.</p>
-  </footer>
+
+<header>
+  <h1>Hemlata Escapes</h1>
+  <p>Travel With Trust — Reliable Car Services Across UP, Bihar & Nepal</p>
+  <a href="https://wa.me/message/4XFYKFVY5LNOJ1" class="btn">Book via WhatsApp</a>
+</header>
+
+<nav>
+  <a href="#services">Services</a>
+  <a href="#rates">Rates</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="services">
+  <h2>Our Services</h2>
+  <div class="card-grid">
+    <div class="card"><strong>Local Taxi in Gorakhpur</strong><br/>Quick rides around the city, available anytime.</div>
+    <div class="card"><strong>Outstation Trips</strong><br/>UP, Bihar, Nepal tours with professional drivers.</div>
+    <div class="card"><strong>Airport & Railway Transfers</strong><br/>Punctual pickups and drop-offs.</div>
+    <div class="card"><strong>Wedding & Events</strong><br/>Luxury and bulk car bookings for special days.</div>
+    <div class="card"><strong>Tempo Traveller Booking</strong><br/>Group tours, 12-seater, safe & comfortable.</div>
+  </div>
+</section>
+
+<section id="rates">
+  <h2>Sample Rate Card</h2>
+  <ul>
+    <li>Gorakhpur to Lucknow – ₹4500 (Sedan)</li>
+    <li>Gorakhpur to Varanasi – ₹3500 (Sedan)</li>
+    <li>Local Taxi – ₹12/km or ₹250/hr</li>
+    <li>Tempo Traveller – ₹25/km (12-seater)</li>
+  </ul>
+</section>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>Hemlata Escapes, inspired by the names of Banshidhar & Hemlata Pandey, is dedicated to providing affordable, safe and timely travel solutions. Based in Gorakhpur, we ensure customer-first service with courteous drivers and clean vehicles. Whether it’s a short ride or a multi-day trip, we’ve got you covered.</p>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p><strong>Call:</strong> <a href="tel:9452998052">9452998052</a></p>
+  <p><strong>Email:</strong> <a href="mailto:Hp433123@gmail.com">Hp433123@gmail.com</a></p>
+  <p><strong>Location:</strong> Gorakhpur, Uttar Pradesh</p>
+  <a href="https://wa.me/message/4XFYKFVY5LNOJ1" class="btn">Chat on WhatsApp</a>
+</section>
+
+<footer>
+  <p>© 2025 Hemlata Escapes. Built with love and trust.</p>
+</footer>
+
 </body>
 </html>
